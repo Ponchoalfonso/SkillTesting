@@ -11,5 +11,6 @@
   <div>
     <textarea [(ngModel)]="textIn" name="pali" id="" cols="30" rows="10"></textarea>
   </div>
-  <input type="text" [(ngModel)]="textIn">
+  <input type="text" name="" id="" value="{{reversedText()}}">
+  <p>Your text {{palindrome() ? "is" : "isn't"}} a palindrome!</p>
 </section>
